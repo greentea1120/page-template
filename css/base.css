@@ -23,7 +23,8 @@ input{vertical-align:middle;border-radius:5px;font-size:inherit;-webkit-border-r
 {box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
 .wp{ width:7.5rem; margin:0 auto;}
 /*top*/
-.top{ background:#000;height:0.84rem; width:100%; position:fixed; left:0; top:0; z-index:3}
+.top{ background:#000;height:0.84rem; width:100%; position:fixed; left:0; top:0; z-index:3;}
+.top-wrap{position: relative;overflow: hidden;}
 .ios{ background:url(../images/ios.png) no-repeat 0 0; background-size:1.75rem auto; float:right;width:1.75rem; height:0.55rem; margin:0.15rem 0.25rem 0 0; position:relative;}
 .ios em{ background:url(../images/guang.png) no-repeat 0 0; background-size:auto 0.52rem;position:absolute; left:0.25rem; top:0rem; display:block; width:0.07rem; height:0.52rem;}
 .sidebar{ background:url(../images/r-nav.png) no-repeat 0 0; background-size:0.55rem auto;float:right; width:0.55rem; height:0.4rem; margin:0.22rem 0.2rem 0 0.3rem}
