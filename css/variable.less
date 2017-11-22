@@ -1,0 +1,33 @@
+// variable top
+@topBtnBg: "top-btn-bg.png";    //top下载btn
+@gameInfoBg: "game-info.png";   //game信息图片
+@topHeight: 1.07rem;    //top height
+// style top
+.top{
+    height: @topHeight !important;
+}
+.ios{
+    background:url("../images/variable/@{topBtnBg}") no-repeat 0 0;
+    background-size:1.75rem auto;
+}
+.game-info{
+    position: absolute;
+    top: 0.1rem;
+    left: 0.23rem;
+    width: 3.39rem;
+    height: 0.84rem;
+    background:url("../images/variable/@{gameInfoBg}") no-repeat 0 0;
+    background-size: 3.39rem 0.84rem;
+}
+
+// variable main
+@mainBg: "main-bg.png";
+@mainHeight : 59.09rem;
+// style main
+.main{
+    background:url("../images/variable/@{mainBg}") no-repeat 0 0;
+    height: @mainHeight;
+    background-size: cover;
+}
+
+

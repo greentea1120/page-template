@@ -24,10 +24,9 @@ input{vertical-align:middle;border-radius:5px;font-size:inherit;-webkit-border-r
 .wp{ width:7.5rem; margin:0 auto;}
 /*top*/
 .top{ background:#000;height:0.84rem; width:100%; position:fixed; left:0; top:0; z-index:3;}
-.top-wrap{position: relative;overflow: hidden;}
-.ios{ background:url(../images/ios.png) no-repeat 0 0; background-size:1.75rem auto; float:right;width:1.75rem; height:0.55rem; margin:0.15rem 0.25rem 0 0; position:relative;}
-.ios em{ background:url(../images/guang.png) no-repeat 0 0; background-size:auto 0.52rem;position:absolute; left:0.25rem; top:0rem; display:block; width:0.07rem; height:0.52rem;}
-.sidebar{ background:url(../images/r-nav.png) no-repeat 0 0; background-size:0.55rem auto;float:right; width:0.55rem; height:0.4rem; margin:0.22rem 0.2rem 0 0.3rem}
+.top-wrap{position: relative;overflow: hidden;height: 100%;}
+.ios{   float:right;width:1.75rem; height:0.55rem; margin:0.25rem 0.25rem 0 0; position:relative;}
+.ios em{ background:url(../images/common/guang.png) no-repeat 0 0; background-size:auto 0.52rem;position:absolute; left:0.25rem; top:0rem; display:block; width:0.07rem; height:0.52rem;}
 /**/
 .index{ position:relative}
 .index .swiper-slide{ background-repeat:no-repeat; background-size:cover; background-position:center 0;}
@@ -36,12 +35,12 @@ input{vertical-align:middle;border-radius:5px;font-size:inherit;-webkit-border-r
 
 /* deaf */
 .yue{ position:fixed; left:0; top:0; z-index:5}
-.yue span{background:url(../images/yue.png) no-repeat;background-size:cover;width:0.63rem;height:0.74rem; z-index:1; display:block}
+.yue span{background:url(../images/common/yue.png) no-repeat;background-size:cover;width:0.63rem;height:0.74rem; z-index:1; display:block}
 .yue span.sp2{ width:1rem; height:1.17rem;}
 .yue span.sp3{ width:0.8rem; height:0.94rem;}
 .hot{ position:fixed; left:0; top:0;z-index:5; width:100%;}
 .hot span{z-index:1; display:block}
-.hot span em{background:url(../images/hot.png) no-repeat;background-size:cover;width:1.08rem;height:1.13rem; display:block}
+.hot span em{background:url(../images/common/hot.png) no-repeat;background-size:cover;width:1.08rem;height:1.13rem; display:block}
 .hot span.sp2{ -webkit-transform-origin:10% 30%;}
 .hot span.sp2 em{-webkit-transform:rotate(20deg) scale(1,1);}
 .hot span.sp3{ -webkit-transform-origin:50% 50%;}
