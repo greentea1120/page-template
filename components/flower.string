@@ -1,0 +1,18 @@
+<!-- flower S -->
+<div class="yue" style="display:none">
+		<span class="sp1" style="position:absolute;left:0px;top:36px;-webkit-animation: yue 8s linear infinite"></span>
+		<span class="sp2" style="position:absolute;left:-80px;top:175px;-webkit-animation:yue 8s 6s linear infinite"></span>
+		<span class="sp3" style="position:absolute;left:-50px;top:100px;-webkit-animation:yue 9s 3s linear infinite"></span>
+		<span class="sp4" style="position:absolute;left:-30px;top:-36px;-webkit-animation:yue 8s 1s linear infinite"></span>		
+</div>
+<div class="hot" style="display:none">
+		<span class="sp1" style="position:absolute;left:0%; top:-1rem;-webkit-animation:hot 2s linear infinite"><em></em></span>
+		<span class="sp2" style="position:absolute; right:0;top:-1rem;-webkit-animation:hot 3.2s 2s linear infinite"><em></em></span>
+		<span class="sp3" style="position:absolute;left:30%;top:-1rem;-webkit-animation:hot 4s 3s linear infinite"><em></em></span>
+		<span class="sp4" style="position:absolute;left:60%;top:-1rem;-webkit-animation:hot 4.5s 1s linear infinite"><em></em></span>	
+        <span class="sp5" style="position:absolute;left:10%; top:-1rem;-webkit-animation:hot 3s linear infinite"><em></em></span>
+		<span class="sp6" style="position:absolute; right:10%;top:-1rem;-webkit-animation:hot 2.5s 2.5s linear infinite"><em></em></span>
+		<span class="sp7" style="position:absolute;left:40%;top:-1rem;-webkit-animation:hot 3s 3.5s linear infinite"><em></em></span>
+		<span class="sp8" style="position:absolute;left:70%;top:-1rem;-webkit-animation:hot 2.5s 1.5s linear infinite"><em></em></span>		
+</div>
+<!-- flower E -->

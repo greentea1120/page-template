@@ -1,0 +1,8 @@
+<!-- slider S -->
+<div class="swiper-container index wp">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" style="background-image:url(test/1.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(test/1.jpg)"></div>
+  </div>
+</div>
+<!-- slider E -->
