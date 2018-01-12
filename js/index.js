@@ -1,7 +1,7 @@
 /* 
     参数
 */
-var debug = true;      //debug模式
+var debug = false;      //debug模式
 var visitPageUrl = '/api/bmt/index/visitPage'   // visitPage 接口地址
 var defaultParams = {
     url: '/api/bmt/index/hotpoint',     //统计热点接口地址
@@ -11,13 +11,13 @@ var defaultParams = {
 
 var tool = {
     //获取url参数
-    getUrlParam : function (name) {
+    getUrlParam: function (name) {
         var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
         var result = window.location.search.substr(1).match(reg);
         return result ? decodeURIComponent(result[2]) : null
     },
     //判断是否是安卓
-    isAndroid : function () {
+    isAndroid: function () {
         var u = navigator.userAgent;
         if(u.indexOf('Android') > -1 || u.indexOf('Adr') > -1){
             return true;
@@ -25,7 +25,7 @@ var tool = {
             return false;
         }
     },
-    visitNum : function (url, route) {
+    visitNum: function (url, route) {
         $.ajax({
             url: url,
             dataType: 'json',
